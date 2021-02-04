@@ -1,0 +1,50 @@
+item_group_ID: 
+  field: id
+  type: STRING
+  recoAiType: STRING
+id: 
+  field: visualVariant.nonvisualVariant.ITEM
+  type: STRING
+  recoAiType: STRING
+title:
+  field: title
+  type: STRING
+  recoAiType: STRING
+description:
+  field: visualVariant.nonvisualVariant.COPY
+  type: STRING
+  recoAiType: STRING
+tags:
+  field: NULL
+  type: NULL
+  recoAiType: STRING
+language_code: en
+uri:
+  field: visualVariant.SURL
+  type: STRING
+  recoAiType: STRING
+height:
+  field: NULL
+  type: NULL
+  recoAiType: STRING
+width:
+  field: NULL
+  type: NULL
+  recoAiType: STRING
+display_price:
+  field: visualVariant.nonvisualVariant.OFFERPRICE
+  type: STRING
+  recoAiType: FLOAT
+original_price:
+  field: visualVariant.nonvisualVariant.RPRICE
+  type: STRING
+  recoAiType: FLOAT
+canonical_product_uri:
+  field: NULL
+  type: NULL
+  recoAiType: STRING
+currency_code: USD
+categories: 
+  field: gbi_categories
+  type: STRING
+  recoAiType: STRING
